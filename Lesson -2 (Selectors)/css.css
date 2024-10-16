@@ -1,0 +1,33 @@
+body {
+    font-size: 60px;
+    color: aqua;
+}
+
+
+/* class selector is used with . notation and modifies only that element which has the class selector */
+
+.class-1 {
+    color: red;
+}
+
+/* id selector is more specific than class and id and element selector, but we should use this in general */
+#class-2 {
+    color: blue;
+}
+
+/* to have css in more than two elements appy with , */
+
+h1, h2 {
+    color: purple;
+}
+
+/* to use inheritance to a specific element under a specific element use css with space seperator */
+
+body h2 {
+    color: yellow;
+}
+
+/* always css flows top to bottom.
+   only font and typography ones.
+   form elements usually dont inherit, we have to specify font: inherit.
+*/
