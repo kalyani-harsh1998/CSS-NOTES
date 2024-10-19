@@ -1,0 +1,36 @@
+/* 
+default size for the browser settings is 16 px and when we mention unit in rem, we are talking
+consideration with the root element and not with the parent element.
+
+if wew mention fixed unit, then if the user changes the setting of the browser from medium to large
+there will no effect on the size as we have hardcoded it.
+
+if we will use 'em' then we will be having the units related to the parent element and not 
+with the root element.
+*/
+
+article {
+    /* here the article is the parent element of the h1 and take 50 percent of width so the h1 becomes 25% */
+    width: 50%;
+    /* font-size: 2rem; here if we put the p as 2em then the size is 4x */
+}
+
+h1 {
+    /* the places where we can use the absolute values */
+    border: dashed red 2px;
+
+    /* percentage takes the value relative to the parent element in which the current element is in. */
+    width: 50%;
+}
+
+/* p {
+    here the font size is being relative to the rrot element that is 16px and is independent of parent element.
+    font-size: 2rem;
+} */
+
+
+/* 
+    ->em is mostly used in padding and borders and margains
+    ->em : we can also use in the text button
+    ->ch : we can use this in width to limit the characters per line.
+*/
