@@ -1,0 +1,45 @@
+/* * {
+    this is the css reset, it means all the default padding and margain assigned by the elements
+    will be 0 now and it is applied on the wild card element.
+    margin: 0;
+    padding: 0;
+    box-sizing: border box;
+} */
+
+
+/* h1 {
+    border: 2px dashed red;
+    width: 50%;
+    font-size: 3rem;
+    padding: 0.5rem;
+} */
+
+
+    /* 
+        Css box model is divided as:  content -> padding -> border -> margin.
+        Go in dev tools computed tab in elements to check out the box model.
+    */
+
+
+.container {
+    /* we have border properties as well like border-top, border-right */
+    border: 2px dashed red;
+    font-size: 1.5rem;
+    margin: 1.5rem;
+    /* margin in one line can be given in order top right bottom and left */
+    padding: 0.5rem;
+    outline: purple 2px solid;
+    /* outline is not calculate in the box model */
+}
+
+.circle {
+    height: 100px;
+    width: 100px;
+    background-color: gold;
+    border: dashed red 2px;
+    outline: 2px solid purple;
+    outline-offset: 0.5rem;
+    margin: auto;
+    border-radius: 50px;
+    margin-bottom: 10px;
+}
