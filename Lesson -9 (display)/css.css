@@ -1,0 +1,29 @@
+body {
+    font-size: 2rem;
+}
+
+p {
+    background-color: lightgrey;
+}
+
+/* .opposite {
+    display: inline-block;
+    padding: 20px;
+    color: aqua;
+    background-color: red;
+
+    this is kind of relative rdisplay that covers the inline element as well, because as we know inline elements doesnt show margain styles
+} */
+
+ul {
+    list-style-type: none;
+    text-align: right;
+    padding: 0.5rem;
+    background-color: black;
+}
+
+li {
+    /* display: none;  this is to hide that particular element*/
+    display: inline-block;
+    margin: 0.5rem;
+}
